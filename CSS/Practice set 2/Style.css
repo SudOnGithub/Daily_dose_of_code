@@ -1,0 +1,28 @@
+*{
+    font-family: "Times New Roman";
+}
+
+h1{
+    text-align:center;
+    text-transform: capitalize;
+}
+
+#Outer {
+ background-color: yellow;
+ width:100px;
+ text-align: center;
+ border: 2px dotted blue;
+ padding: 10px;
+ font-size: 25px;
+}
+
+#Inner{
+    font-size:10px;
+}
+
+#Styling{
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+
+}
