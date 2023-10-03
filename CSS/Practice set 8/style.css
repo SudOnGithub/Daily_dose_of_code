@@ -1,0 +1,13 @@
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(188, 81, 81);
+    border-top: 10px solid rgb(209, 214, 60);
+    animation: spinAnime 2s ease-in-out 3s infinite normal;
+}
+
+@keyframes spinAnime {
+    from { transform:rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
