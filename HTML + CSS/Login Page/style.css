@@ -1,0 +1,54 @@
+body{
+    background-image: url(./Wallpaper.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container{
+    font-family: sans-serif;
+    background-color: rgb(74, 29, 136,0.2);
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height:300px;
+    width: 320px;
+    border: 1px solid rgba(110, 68, 200, 0.849);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#set1{
+  text-decoration: none;
+  color:white;
+  margin-left:15px;
+}
+
+#set2{
+    text-decoration:none;
+    color:white;
+}
+
+
+.box{
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 220px;
+    border-radius: 25px;
+    /* border: 1px solid white; */
+}
+
+button{
+    border: 0px;
+    width:220px;
+    padding: 7px;
+    border-radius: 25px;
+}
