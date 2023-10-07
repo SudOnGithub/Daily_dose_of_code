@@ -1,0 +1,111 @@
+h1 {
+  text-align: center;
+  color: rgb(180, 178, 238);
+}
+
+body {
+  background-color: rgb(226, 249, 254);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 200px;
+  width: 300px;
+  box-shadow: 3px 3px rgba(65, 70, 70, 0.1);
+
+  border-radius: 3%;
+  background-color: rgb(255, 255, 255);
+  margin: 50px 40px 50px 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 160px;
+  height: 70px;
+  background-color: red;
+  border-radius: 40px;
+}
+
+.pill {
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* animation: Moveright 2s linear 0s 0 none; */
+}
+
+.pill:active {
+  transition: .3s ease all;
+  position: relative;
+  left: 60%;
+}
+
+.pill:after {
+  content: "Yes";
+}
+
+.pill:active:after {
+  content: "No";
+}
+
+/* #hide{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 2px ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+} */
+
+/* #hide{
+    display:none;
+}
+
+.pill:hover + span{
+    display: none;
+} */
+/* @keyframes Moveright{   
+    from{position: relative;
+    left:0%;}
+    to{ position: relative;
+    left: 60%;} 
+ }  */
+
+/* 
+.pill:hover:before{
+    background-color: black;
+    transform: translate(95px);
+     content: "NO"; 
+    color: aqua;
+}  
+
+
+.pill:hover::after{
+    transform: translate(95px);
+    content: "NO"; 
+    color: aqua;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 2px ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+} */
