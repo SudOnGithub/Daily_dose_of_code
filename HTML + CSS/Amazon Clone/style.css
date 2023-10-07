@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Amazon logo */
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  height: 50px;
+  width: 100%;
+  background-image: url(./amazon_logo.png);
+  background-size: cover;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* Deliver address  */
+
+.address-1 {
+  margin-left: 12px;
+  color: #cccccc;
+  font-size: 0.8rem;
+}
+
+.address-2 {
+  margin-left: 2px;
+  font-size: 1rem;
+}
+
+.nav-address-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Search bar */
+
+.nav-search {
+  display: flex;
+  width: 500px;
+  background-color: pink;
+  border-radius: 3px;
+  height: 35px;
+}
+
+.nav-search:hover {
+  border: 2px solid #febd68;
+}
+
+.search-select {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #0f1111;
+}
+
+/* Make an icon which is missing */
+
+.sign-in-text1 {
+  font-size: 0.7rem;
+}
+
+.sign-in-text2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Cart */
+
+.cart i {
+  font-size: xx-large;
+}
+
+.cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Pannell 2 */
+
+.panel2 {
+  background-color: #37475a;
+  /* height: fit-content; */
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.panel-options {
+  width: 75%;
+}
+
+.panel-options p {
+  margin: 7px;
+  display: inline;
+}
+
+.panel-deals {
+  font-weight: 500;
+}
+
+/* PARTTTTTT 2 */
+
+.main-section {
+  background-image: url(./hero_image.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.small-block {
+  background-color: #cccccc;
+  color: black;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-bottom: 40px;
+}
+
+.small-block a {
+  color: #007185;
+}
