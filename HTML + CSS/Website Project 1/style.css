@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* SECTION 1 */
+
+.part1 {
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-image: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg);
+}
+
+.head-pane-logo img {
+  height: 60px;
+}
+
+#welcome {
+  font-size: 25px;
+}
+
+.main-content-part1 span {
+  color: red;
+}
+
+.head-pane {
+  display: flex;
+  justify-content: space-evenly;
+  height: 75px;
+  align-items: center;
+  background-color: rgba(80, 65, 59, 0.37);
+}
+
+.main-content-part1 {
+  color: rgb(249, 249, 249);
+  font-weight: 700;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head-pane-items a {
+  text-decoration: none;
+  color: white;
+  margin-left: 8px;
+}
+
+#read-more-button {
+  height: 40px;
+  width: 130px;
+  color: white;
+  background-color: rgba(224, 52, 52, 0.84);
+  border: 0px;
+  border-radius: 5px;
+}
+
+/* SECTION 2 */
+
+.about-us {
+  text-align: center;
+}
+
+.about-us-2 {
+  color: red;
+}
+
+.main-content-part1 p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.PART2-2 button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: rgba(224, 52, 52, 0.84);
+  border: 0px;
+  border-radius: 5px;
+}
+
+.PART2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.PART2-1 {
+  margin-left: 2%;
+  background-image: url(./tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg);
+  height: 300px;
+  width: 800px;
+  background-size: cover;
+}
+
+.inside-img-text {
+  height: 50px;
+  position: relative;
+  top: 215px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.inside-img-text span {
+  color: white;
+  font-size: 2rem;
+}
+
+.inside-img-logo span a {
+  text-decoration: none;
+  color: white;
+  margin-right: 40px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-radius: 50%;
+}
+
+.inside-img-logo {
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 215px;
+  background-color: rgba(0, 0, 0, 0.541);
+  margin-bottom: 10px;
+}
+
+.PART2-2 {
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+/* SECTION 3 */
+
+video {
+  height: 300px;
+  width: 100px;
+}
