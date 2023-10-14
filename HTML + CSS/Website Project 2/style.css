@@ -1,0 +1,129 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: "inter";
+}
+
+.head-pane{
+    height: 80px;
+    background-color: black; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head-pane a{
+    color:white;
+    text-decoration: none;
+    margin-right: 3%;
+}
+
+.head-pane button{
+    background-color: #ffd300;
+    height: 30px;
+    width: 100px;
+    border: 0px solid ;
+    border-radius: 4px;
+    margin-right: 3%;
+}
+
+
+/* SECTION 2 */
+
+
+.intro-area{
+    background-color: #ffd300;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-area1{
+    margin-right: 6%;
+    width: 40%;
+}
+
+.intro-area1{
+     height: 50vh;
+}
+
+.intro-area1 button{
+    border: 0;
+    width: 25%;
+    height: 12%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.intro-area2{
+    padding: 1%;
+    background-color: white;
+    height: 46vh;
+    width: 48%;
+    border-radius: 5px;
+}
+
+.intro-area2-outer-box button{
+    position: relative;
+    padding: 3%;
+    left:10%;
+    padding-top: 0;
+    background-color: #ffd300;
+    border: 0;
+    border-radius: 5px;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    width: 43%;
+}
+
+.intro-area2-outer-box>div{
+    display: flex;
+}
+
+
+.button-3-part2 i{
+    margin-left: 300%;
+}
+
+.intro-area2-outer-box button p{
+    text-align: left;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+.intro-area2-pos{
+    display: flex;
+}
+
+.intro-area2-round-pics img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border:5px solid #ffd300;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+}
+
+#img2{
+    right: 2%;
+}
+
+#img3{
+    right: 4%;
+}
+
+.intro-area2-stars img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.intro-area2-stars{
+    margin-left: 5%;
+}
+
