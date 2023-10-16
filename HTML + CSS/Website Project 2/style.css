@@ -231,3 +231,102 @@ body{
     margin-left: 15%
 }
 
+/* SECTION 6 */
+
+
+
+.partner-section{
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.partner-section>img{
+    outline-style: solid;
+    outline-offset: .4rem;
+    outline-width: 0.4 rem;
+    outline-color: rgba(128, 128, 128, 0.524);
+    border:  .1rem solid rgba(128, 128, 128, 0.877);
+    height: 20vh;
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+    object-fit: scale-down;
+    margin-top: 2%;
+}
+
+/* SECTION 7 */
+
+.blog-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog-section button{
+    background-color: #ffd300;
+    border-radius: 3px;
+    border:0;
+}
+
+.blog123{
+    background-size: cover;
+    padding: 2%;
+    border-radius: 4px;
+    text-align: left;
+    height: 12rem;
+    width: 23%;
+}
+
+.blog1{
+    background: linear-gradient(to bottom, rgba(39, 39, 39, 0.5),rgba(240, 196, 0, 0.503), rgba(39,39,39,.5)) , url(./blog1.png);
+}
+
+.blog2{
+    background: linear-gradient( to bottom, rgba(39, 39, 39, 0.5),rgba(240, 196, 0, 0.503), rgba(39,39,39,.5)) , url(./blog2.png);   
+}
+
+.blog3{
+    background: linear-gradient(rgba(39, 39, 39, .5),rgba(240, 196, 0, 0.503),  rgba(39, 39,39,0.5)), url(./blog3.png)
+}
+
+.blog123 p{
+    position: relative;
+    top: 20vh;
+    text-align: bottom;
+    color: white;
+    font-weight: 900;
+}
+
+#visit-our-blog{
+    text-align: center;
+}
+
+#visit-our-blog>button{
+    height: 7vh ;
+    width: 10%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border:0;
+}
+
+.newsletter{
+    height: 20vh;
+    background-color: #ffd300;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter>p{
+    width: 40%;
+}
+
+.newsletter input{
+    border: 0;
+    height: 5vh;
+    width: 100%;
+    border-radius: 4px;
+}
+
