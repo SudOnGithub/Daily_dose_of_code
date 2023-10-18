@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar{
+    height: 6vh;
+    background-color: rgb(77, 132, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar p{
+    color: white;
+}
+
+.top-bar div{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.top-bar div a{
+    margin-right: 10%;
+    text-decoration: none;
+    color: white;
+}
+
+.top-bar-icons{
+    width: 15vw;
+}
+
+/* SECTION 2 */
+
+.header-bar{
+    height: 15vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main-logo{
+    margin-left: 1%;
+}
+
+.header-main-logo span{
+     font-size: 3rem;
+     position: relative;
+     top: -2vh;
+     right: 1vw;
+     color: rgb(97, 97, 97);
+}
+
+.header-bar-items{
+    width: 50%;
+}
+
+.header-bar a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-size: 1.3rem;
+    margin-right: 5%;
+}
+
+/* SECTION 3 */
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(to right, rgba(155, 154, 154, 0.158), rgba(128, 128, 128, 0.322)), url(./hero-image4.jpg);
+    background-size: cover;
+    text-align: end;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.hero-section>div{
+  margin: 2%;
+}
+.hero-text-large{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-text-small{
+    font-size: 1rem; 
+}
+
+.hero-section p{
+    margin: 0;
+    margin-bottom: 3vh;
+}
+
+#blue-button{
+    height: 5vh;
+    width: 7vw;
+    background-color: rgb(77, 132, 252);
+    border: 0;
+    color: white;
+}
+
+#contact-button{
+    height: 5vh;
+    width: 7vw;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+/* Section 4 */
+
+.about-us-parts{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+/* SECTION 5 */
+
+.our-services{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.sbox{
+    height: 35vh;
+    width: 30%;
+    background-color: rgb(231, 230, 230);
+    text-align: center;
+    /* text-justify:newspaper; */
+}
+
+.mid-sbox:hover{
+    border: 2px solid rgba(128, 128, 128, 0.716);
+}
+
+
+.our-services-box-circle{
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(231, 230, 230);
+    position: relative;
+    top: -23%;
+    left: 9em;
+    outline-style: double;
+    outline-color: white;
+    outline-offset: 2px;
+}
+
+.osbx-mid{
+    background-color: lightblue;
+}
+
+h3{
+    margin-top: 0%;
+}
