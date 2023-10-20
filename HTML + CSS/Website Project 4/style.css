@@ -1,141 +1,226 @@
-body{
-    padding:0;
-    margin:0;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New";
 }
 
 /* Section 1 */
 
-.section1{
-    padding: 1%;
+.section1 {
+  padding: 1%;
 }
 
-.section1>h1{
-    text-align: center;
-    font-size: 3rem;
-    background: linear-gradient(to bottom, rgb(255, 52, 1), rgba(205, 92, 51, 0.644), rgb(255, 197, 89));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow:rgba(9, 56, 195, 0.192) -3px 3px;
+.section1 > h1 {
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 52, 1),
+    rgba(205, 92, 51, 0.644),
+    rgb(255, 197, 89)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgba(9, 56, 195, 0.192) -3px 3px;
 }
 
 /* Section 2 */
 
-.section2 ul{
-    background-color: rgba(83, 83, 217, 0.747);
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 1.5rem;
-    margin: 0;
+.section2 ul {
+  background-color: rgba(83, 83, 217, 0.747);
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 1.1rem;
+  margin: 0;
 }
 
-.section2 li>a{
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
+.section2 li > a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
-.section2-a{
-    font-size: 2rem;
-    height: 70vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(0, 0, 0, 0.592)), url(./hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
-    background-size: cover;
-    color: white;
-    padding: 5rem ;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items: center;
-    text-align: center;
+.section2-a {
+  font-size: 1.7rem;
+  height: 70vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.688),
+      rgba(0, 0, 0, 0.592)
+    ),
+    url(./hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  padding: 10rem 6rem 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 
-#bigtext{
-    font-size: 5rem;
-    font-weight: 900;
+#bigtext {
+  font-size: 5rem;
+  font-weight: 900;
 }
 
-.section2-a>button{
-    height: 7vh;
-    width: 25vh;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    font-size: 1.2rem;
-    background-color: rgb(255, 98, 0);
+.section2-a > button {
+  height: 9vh;
+  width: 35vh;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(255, 98, 0);
 }
 
 /* Section 3 */
 
-.section3{
-    text-align: center;
-    padding: 5%;
+.section3 {
+  text-align: center;
+  padding: 5%;
 }
 
-.h4-gen{
+.h4-gen {
   font-size: 1.5rem;
   color: grey;
 }
 
-.h1-gen{
-   font-size: 3rem;
-   color: rgba(0, 0, 0, 0.716);
+.h1-gen {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.716);
 }
 
-.Lineup1-photos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10vh;
+.Lineup1-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10vh;
 }
 
-
-.Lineup1-photos p{
-    position: relative;
-    top: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-    font-size: 2rem;
-    color: white;
-    background-color: black;
+.Lineup1-photos p {
+  position: relative;
+  top: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  font-size: 2rem;
+  color: white;
+  background-color: black;
 }
 
-.Band1-p{
-    background-image: url(./Band1.png);
+.Band1-p {
+  background-image: url(./Band1.png);
 }
 
-.Band2-p{
-    background-image: url(./Band2.png);
+.Band2-p {
+  background-image: url(./Band2.png);
 }
 
-.Band3-p{
-    background-image: url(./Band3.png);
+.Band3-p {
+  background-image: url(./Band3.png);
 }
 
-.Band4-p{
-    background-image: url(./Band4.png);
+.Band4-p {
+  background-image: url(./Band4.png);
 }
 
-.Band5-p{
-    background-image: url(./Band5.png);
+.Band5-p {
+  background-image: url(./Band5.png);
 }
 
-.Band6-p{
-    background-image: url(./Band6.png);
+.Band6-p {
+  background-image: url(./Band6.png);
 }
 
-.lineup-p{
-    background-size: cover;
-    height: 50vh;
-    width: 50vh;
+.lineup-p {
+  background-size: cover;
+  height: 50vh;
+  width: 50vh;
 }
 
-.gen-button{
-    height: 7vh;
-    width: 20vh;
-    background-color: transparent;
-    border-radius: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.322);
-    color: rgba(0, 0, 0, 0.384);
+.gen-button {
+  height: 7vh;
+  width: 20vh;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  color: rgba(0, 0, 0, 0.384);
 }
+
+/* Section 4 */
+
+.section4-a,
+.section4-b {
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.section4-a img {
+  width: 50%;
+  height: 60vh;
+  float: left;
+  margin-right: 5%;
+}
+.section4-b img {
+  width: 50%;
+  height: 60vh;
+  float: right;
+  margin-left: 5%;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.692);
+  font-size: 2rem;
+}
+
+.section4 p {
+  color: rgba(0, 0, 0, 0.418);
+}
+.section4-a-1 {
+  padding: 5%;
+}
+.section4-b-1 {
+  padding: 5%;
+}
+
+/* Section 5 */
+
+.section5 {
+  text-align: center;
+}
+
+.section5 {
+  width: 80%;
+  margin: auto;
+}
+
+.sec5-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 6vh;
+  background-color: rgba(0, 0, 0, 0.575);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.sec5-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec5-list li {
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+  list-style-type: none;
+  text-align: left;
+}
+
+.sec5-list span {
+  color: orange;
+}
+
