@@ -228,104 +228,216 @@ h3 {
 
 /* Section 6 */
 
-.section6{
-    margin-top: 2% ;
-    display: flex;
-    align-items: center;
-    height: 25vh;
-    background-color: orangered;
-    color: white;
-    font-size: 6rem;
-    padding-left: 10%;
+.section6 {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  height: 25vh;
+  background-color: orangered;
+  color: white;
+  font-size: 6rem;
+  padding-left: 10%;
 }
 
-.section6 p{
-    font-size: 1.6rem;
-    margin: 3%;
+.section6 p {
+  font-size: 1.6rem;
+  margin: 3%;
 }
 
 /* Section 7 */
 
-.section7{
-    text-align: center;
-    width: 75%;
-    margin: auto;
+.section7 {
+  text-align: center;
+  width: 75%;
+  margin: auto;
 }
 
-img{
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
+img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.section7-imgs{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+.section7-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
 }
 
-.img-size{
-    grid-column: span 2;
+.img-size {
+  grid-column: span 2;
 }
 
 /* Section 8 */
 
-.section8{
-    color: white;
-    background:linear-gradient(to left, rgba(0, 0, 0, 0.082),rgba(0, 0, 0, 0.89)), url(./sec9.jpg) ;
-    background-size:contain;
+.section8 {
+  color: white;
+  background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.082),
+      rgba(0, 0, 0, 0.89)
+    ),
+    url(./sec9.jpg);
+  background-size: contain;
 }
 
-.sub-section8{
-    padding: 3%;
-    width: 45%;
-    font-size: 1.5rem;
+.sub-section8 {
+  padding: 3%;
+  width: 45%;
+  font-size: 1.5rem;
 }
 
 /* Section 9 */
 
-.section9{
-    background-color: rgba(0, 0, 0, 0.116);
-    padding: 7%;
+.section9 {
+  background-color: rgba(0, 0, 0, 0.116);
+  padding: 7%;
 }
 
-.sub-section9{
+.sub-section9 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 30px;
 }
 
-.big-div-sec9{
+.big-div-sec9 {
   padding: 7%;
   grid-row: span 2;
   background-color: white;
 }
 
-.sub-section9 img{
+.sub-section9 img {
   height: 40vh;
 }
 
 /* Section 10 */
 
-.section10{
+.section10 {
   width: 75%;
   margin: auto;
   text-align: center;
 }
 
-.sub-section10{
+.sub-section10 {
   display: flex;
   justify-content: space-evenly;
+  text-align: left;
 }
 
-.section10 img{
+.section10 img {
   height: 30vh;
   object-fit: cover;
 }
-.section10-a, .section10-b{
+.section10-a,
+.section10-b {
   width: 30%;
 }
 
 /* Section 11 */
+
+.section11 {
+  color: white;
+  margin-top: 2%;
+  background: linear-gradient(
+      to bottom,
+      rgba(146, 73, 51, 0.329),
+      rgba(163, 108, 71, 0.486)
+    ),
+    url(./party.jpg);
+  background-size: cover;
+}
+
+.sub-section11 {
+  padding: 3%;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.section11 h1,
+.section11 h4 {
+  color: whitesmoke;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Section 12 */
+
+.section12 {
+  background-color: rgba(128, 128, 128, 0.205);
+}
+
+.sub-section12{
+  width: 75%;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}
+.sub-section12-a {
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Section 13 */
+
+.section13 {
+  width: 60%;
+  margin: auto;
+  padding-top: 3%;
+}
+
+.section13 img {
+  padding: 3%;
+  margin-right: 3%;
+  float: left;
+  height: 30%;
+  width: 30%;
+}
+
+/* Section 14 */
+
+
+.section14 {
+  height: 122vh;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.section14-a img{
+  width: 50%;
+  height: 61vh;
+  float: left;
+  margin-right: 2%;
+}
+
+.section14-b img {
+  width: 50%;
+  height: 61vh;
+  float: right;
+  margin-left: 5%;
+}
+
+.section14 p {
+  color: rgba(0, 0, 0, 0.418);
+}
+
+.section14-a-1 h3{
+  padding-top: 2%;
+  
+}
+.section14-b-1{
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+
+
+
