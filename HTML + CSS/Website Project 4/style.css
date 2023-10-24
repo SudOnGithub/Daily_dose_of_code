@@ -5,7 +5,6 @@ body {
 }
 
 /* Section 1 */
-
 .section1 {
   padding: 1%;
 }
@@ -25,7 +24,6 @@ body {
 }
 
 /* Section 2 */
-
 .section2 ul {
   background-color: rgba(83, 83, 217, 0.747);
   /* background-color: orangered; */
@@ -77,7 +75,6 @@ body {
 }
 
 /* Section 3 */
-
 .section3 {
   text-align: center;
   width: 75%;
@@ -154,7 +151,6 @@ body {
 }
 
 /* Section 4 */
-
 .section4-a,
 .section4-b {
   height: 60vh;
@@ -190,7 +186,6 @@ h3 {
 }
 
 /* Section 5 */
-
 .section5 {
   text-align: center;
 }
@@ -228,7 +223,6 @@ h3 {
 }
 
 /* Section 6 */
-
 .section6,
 .section16 {
   display: flex;
@@ -246,7 +240,6 @@ h3 {
 }
 
 /* Section 7 */
-
 .section7 {
   text-align: center;
   width: 75%;
@@ -271,7 +264,6 @@ img {
 }
 
 /* Section 8 */
-
 .section8 {
   color: white;
   background: linear-gradient(
@@ -290,7 +282,6 @@ img {
 }
 
 /* Section 9 */
-
 .section9 {
   background-color: rgba(0, 0, 0, 0.116);
   padding: 7%;
@@ -314,7 +305,6 @@ img {
 }
 
 /* Section 10 */
-
 .section10 {
   width: 75%;
   margin: auto;
@@ -337,7 +327,6 @@ img {
 }
 
 /* Section 11 */
-
 .section11 {
   color: white;
   margin-top: 2%;
@@ -366,7 +355,6 @@ img {
 }
 
 /* Section 12 */
-
 .section12 {
   background-color: rgba(128, 128, 128, 0.205);
 }
@@ -388,7 +376,6 @@ img {
 }
 
 /* Section 13 */
-
 .section13 {
   width: 60%;
   margin: auto;
@@ -404,7 +391,6 @@ img {
 }
 
 /* Section 14 */
-
 .section14 {
   height: 122vh;
   background-color: rgba(0, 0, 0, 0.116);
@@ -442,7 +428,6 @@ img {
 }
 
 /* Section 15 */
-
 .section15 {
   width: 75%;
   margin: auto;
@@ -481,7 +466,6 @@ img {
 }
 
 /* Section 17 */
-
 .section17 {
   width: 75%;
   margin: auto;
@@ -495,7 +479,6 @@ img {
 }
 
 /* Section 18 */
-
 .section18 {
   height: 60vh;
   background: linear-gradient(
@@ -516,7 +499,6 @@ img {
 }
 
 /* Section 19 */
-
 .section19 {
   background-color: rgba(128, 128, 128, 0.134);
 }
@@ -532,7 +514,6 @@ img {
 }
 
 /* Section 20 */
-
 .section20 {
   text-align: center;
   width: 75%;
@@ -564,14 +545,12 @@ img {
 }
 
 /* Section 21 */
-
 .section21-img {
   height: 50vh;
   margin-top: 4%;
 }
 
 /* Section 22 */
-
 .section22 {
   width: 75%;
   margin: auto;
@@ -579,7 +558,6 @@ img {
 }
 
 /* Section 23 */
-
 .section23 {
   background-color: rgba(128, 128, 128, 0.212);
 }
@@ -638,7 +616,6 @@ img {
 }
 
 /* Section 24 */
-
 .section24 {
   background-color: rgba(32, 18, 59, 0.877);
 }
@@ -693,7 +670,6 @@ img {
 }
 
 /* Section 25 */
-
 .section25 {
   text-align: center;
   margin: auto;
@@ -711,7 +687,6 @@ img {
 }
 
 /* Section 26 */
-
 .section26 {
   padding: 2%;
   background-color: rgba(128, 128, 128, 0.212);
