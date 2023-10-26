@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 240);
+}
+
+.name {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.name h1 {
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 0px;
+}
+
+.name p {
+    margin-top: 14px;
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+}
+
+#n1 {
+    color: white;
+    background-color: black;
+    padding: 4px 9px;
+    margin-left: 2px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+/* //////////////// SECTION 1 /////////////////// */
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+/* ========S1D1 and div1========================= */
+.s1d1 {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+}
+
+.div1 img {
+    width: 100%;
+    height: 280px;
+}
+
+.div1 {
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.div1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
+    height: 280px;
+}
+
+.div1 h3 {
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: 0px 0px 1.5px black;
+}
+
+.div1 h4 {
+    font-size: 18px;
+    font-weight: 100;
+    color: grey;
+}
+
+.div1 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(65, 64, 64);
+}
+
+#comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#comment button {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 15px;
+    border: 1px rgb(199, 199, 199) solid;
+}
+
+#comment p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#c1 {
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    margin-left: 5px;
+}
