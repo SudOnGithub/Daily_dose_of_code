@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 9</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- ///////// SECTION 1 /////////// -->
+
+    <div class="section1">
+
+        <div class="navbar">
+            <a href="#" id="location">All-Around</a>
+            <a href="#" id="search"><i class="fa-solid fa-magnifying-glass"></i> </a>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <div class="main1">
+
+                    <div id="m1" onclick="openFlight()">
+                        <label id="flight-button" class="open-button">
+                            <i class="fa-solid fa-plane-departure">
+                            </i> Flight
+                        </label>
+                    </div>
+
+                    <div id="m2" onclick="openHotel()">
+                        <label id="hotel-button" class="open-button">
+                            <i class="fa-solid fa-bed">
+                            </i> Hotel
+                        </label>
+                    </div>
+
+                    <div id="m3" onclick="openRental()">
+                        <label id="rental-button" class="open-button">
+                            <i class="fa-solid fa-car">
+                            </i>Rental
+                        </label>
+                    </div>
+                </div>
+
+                <div id="flight">
+                    <h1>Travel the world with us </h1>
+                    <div class="flight-div">
+                        <div class="flight-div1">
+                            <p>From</p>
+                            <input type="text" placeholder="Departing from">
+                        </div>
+                        <div class="flight-div1">
+                            <p>To</p>
+                            <input type="text" placeholder="Arriving At">
+                        </div>
+                    </div>
+                    <button type="button">Search and Find Dates</button>
+                </div>
+
+
+                <div id="hotel">
+                    <h1>Find the best hotels</h1>
+                    <p> Book A Hotel with us and get the best fares and promotions</p>
+                    <p>We know hotels - we know comfort. </p>
+                    <button type="button">Search Hotels</button>
+                </div>
+
+                <div id="rental">
+                    <h1>Best car rental in the world!
+                    </h1>
+                    <p><span id="discount">DISCOUNT!
+                        </span>Special offer if you book today: 25% off anywhere in the world
+                        with CarServiceRentalRUs
+                    </p>
+                    <input type="text" placeholder="Pick-Up Point">
+                    <button type="button">Search Availability</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--   SECTION 2 ..../////////////// -->
+
+    <div class="section2">
+
+        <div id="text3">
+            <h1>Good Offers Right Now</h1>
+            <p>Up to <strong>50%</strong> discount.</p>
+        </div>
+
+        <div class="s2grid1">
+            <div class="s2grid-items" id="item1">
+                <img src="2.jpg">
+                <p>Cinque Terre</p>
+            </div>
+            <div class="s2grid-items" id="item2">
+                <img src="3.jpg">
+                <p>Cinque Terre</p>
+            </div>
+            <div class="s2grid-items" id="item3">
+                <img src="4.jpg">
+                <p>Cinque Terre</p>
+            </div>
+            <div class="s2grid-items" id="item4">
+                <img src="5.jpg">
+                <p>Cinque Terre</p>
+            </div>
+            <div class="s2grid-items" id="item5">
+                <img src="6.jpg">
+                <p>Cinque Terre</p>
+            </div>
+        </div>
+
+        <div id="text3">
+            <h1>Explore Nature</h1>
+            <p>Travel with us and see nature at its finest.</p>
+        </div>
+
+        <div class="s2grid2">
+            <div class="s2grid2-items" id="g2i1">
+                <img src="7.jpg">
+                <div id="text1">
+                    <h1>West Coast , Norway</h1>
+                    <p style="color: #a2a2a2;">Roundtrip from $79
+                    </p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <button type="button">Buy Tickets</button>
+                </div>
+            </div>
+            <div class="s2grid2-items" id="g2i1">
+                <img src="8.jpg">
+                <div id="text1">
+                    <h1>Mountains, Austria</h1>
+                    <p style="color: #a2a2a2;">One-way from $39</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <button type="button">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="s2d1">
+            <h1>Get the best offers first!
+            </h1>
+            <p>Join our newsletter.
+            </p>
+            <p>E Mail Id</p>
+            <input type="text" placeholder=" Your Email Address">
+            <button type="button">Subscribe</button>
+        </div>
+        <div class="s2d2">
+            <h1>Contact</h1>
+            <p>Let us book your next trip!
+            </p>
+            <div class="text2">
+                <p><i class="fa-solid fa-location-dot"></i> Chicago, US
+                </p>
+                <p> <i class="fa-solid fa-phone">
+                    </i>Phone: +00 151515
+                </p>
+                <p> <i class="fa-solid fa-envelope">
+                    </i>Email: mail@mail.com
+                </p>
+            </div>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="E mail">
+            <input type="text" placeholder="Message">
+            <button type="button">SEND MESSAGE</button>
+        </div>
+        <div class="footer">
+            <p>FIND US ON</p>
+            <div class="f1">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

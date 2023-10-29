@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* NAVBAR       /////////////////////////// */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+}
+
+.navbar i {
+    font-size: 21px;
+    margin: 0px 5px;
+}
+
+#location {
+    font-size: 26px;
+    color: #f44336;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+#location:hover,
+#search:hover {
+    color: white;
+    background-color: #f44336;
+}
+
+#search {
+    color: #757576;
+    font-weight: 600;
+    padding: 11px 7px;
+}
+
+/*   //////////  SECTION 1 /////////////// */
+.container {
+    width: 68%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: url('1.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+.main1 {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+
+#m1,
+#m2,
+#m3 {
+    text-decoration: none;
+    padding: 10px 13px;
+    font-size: 16px;
+    margin: 0px;
+    color: white;
+    font-weight: 100;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+.main1 i {
+    margin: 0px 8px;
+    font-size: 14px;
+}
+
+#m1:hover,
+#m2:hover,
+#m3:hover {
+    background-color: #CAC7C7 !important;
+    color: black !important;
+}
+
+#m1 {
+    color: white;
+    background-color: #ff5722;
+}
+
+.main h1 {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.main p {
+    font-size: 17px;
+}
+
+.main button {
+    background-color: #757576;
+    width: fit-content;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+}
+
+#flight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 38%;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 38px;
+
+}
+
+.flight-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#flight input {
+    padding: 8px;
+    font-size: 17px;
+    margin: 5px 5px 0px 0px;
+}
+
+#hotel {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 38px;
+}
+
+#rental {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 38px;
+}
+
+#rental input {
+    padding: 8px;
+    font-size: 17px;
+    margin: 5px 5px 0px 0px;
+}
+
+#discount {
+    background-color: #ff5722;
+    color: white;
+    padding: 3px 5px;
+}
+
+/* SECTION 2  ///////////////////////// */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 0px 100px;
+}
+
+#text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+}
+
+.section2 h1 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.section2 p {
+    font-size: 17px;
+}
+
+.s2grid1 {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30vh 30vh;
+    gap: 16px;
+}
+
+.s2grid1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.s2grid2-items {
+    background-color: white;
+}
+
+.s2grid-items p {
+    position: relative;
+    top: -30px;
+    left: 17px;
+    color: white;
+    font-size: 19px;
+}
+
+.s2grid2 {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s2grid2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#text1 {
+    padding: 20px;
+    line-height: 40px;
+}
+
+#text1 p {
+    font-size: 17px;
+}
+
+
+#text1 button {
+    padding: 10px 13px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 0px;
+}
+
+#text1 button:hover {
+    padding: 10px 13px;
+    font-size: 16px;
+    background-color: #CAC7C7;
+    border: 0px;
+}
+
+.s2d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    padding: 15px 20px 6px 20px;
+    opacity: 60%;
+    margin: 30px 0px;
+}
+
+.s2d1:hover {
+    opacity: 100%;
+}
+
+.s2d1 p {
+    font-size: 16px;
+}
+
+.s2d1 input {
+    padding: 8px;
+    font-size: 17px;
+    margin: 5px 5px 0px 0px;
+}
+
+.s2d1 button {
+    background-color: #e52d20;
+    width: fit-content;
+    padding: 10px 20px;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+}
+
+.s2d1 button:hover {
+    background-color: #CAC7C7;
+    width: fit-content;
+    padding: 10px 20px;
+    color: black;
+    border: 0px;
+    font-size: 15px;
+}
+
+.s2d2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.s2d2 p {
+    font-size: 16px;
+}
+
+.s2d2 input {
+    padding: 8px;
+    font-size: 17px;
+    padding: 15px 10px;
+    border-radius: 0px;
+    border: 1px grey solid;
+}
+
+.text2 {
+    line-height: 30px;
+}
+
+.text2 i {
+    margin-right: 27px;
+    font-size: 15px;
+}
+
+.s2d2 button {
+    background-color: black;
+    width: fit-content;
+    padding: 15px 20px;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+}
+
+.s2d2 button:hover {
+    background-color: #CAC7C7;
+    width: fit-content;
+    padding: 15px 20px;
+    color: black;
+    border: 0px;
+    font-size: 15px;
+}
+
+.footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    color: #606060;
+    margin: 10px 0px;
+}
+
+.f1 {
+    display: flex;
+    justify-content: center;
+}
+
+.f1 i {
+    color: #606060;
+    font-size: 25px;
+    margin: 0px 3px;
+}
+
+.f1 i:hover {
+    color: #606060;
+    opacity: 60%;
+}
