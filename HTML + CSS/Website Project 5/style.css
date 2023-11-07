@@ -353,3 +353,148 @@
   color: rgb(20, 110, 48);
   font-size: 12px;
 }
+
+/* SECTION 6-------------------------------------------- */
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  padding-bottom: 50px;
+  background-color: aliceblue;
+}
+
+.section6 img {
+  height: 400px;
+  width: 800px;
+}
+
+/* SECTION 7 -------------------------------------------*/
+.section7 {
+  height: 600px;
+  padding: 50px 50px;
+  background: linear-gradient(
+      to right,
+      rgba(249, 249, 249, 0.7),
+      rgb(245, 245, 245, 1)
+    ),
+    url("12.png");
+  background-size: cover;
+}
+
+.s7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+}
+
+.s7 p {
+  column-count: 2;
+  column-gap: 50px;
+  line-height: 30px;
+  margin: 15px 0px;
+  text-align: justify;
+}
+
+
+/* SECTION 9-------------------------------------------- */
+.section9 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(90, 87, 87);
+  color: white;
+  height: 320px;
+  padding: 50px 10px;
+}
+
+.s9d1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 26%;
+  line-height: 30px;
+  text-align: left;
+}
+
+.s9d1 img {
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.s9d2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: fit-content;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.s9detail {
+  display: flex;
+  align-items: center;
+}
+
+#icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 13px;
+  background-color: rgb(20, 110, 48);
+}
+
+.s9d3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: fit-content;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.s9d3 p {
+  word-spacing: 80px;
+  text-align: justify;
+}
+
+.s9d3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.s9d4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: fit-content;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.s9d4images img {
+  height: 100px;
+  width: 100px;
+  opacity: 80%;
+}
+
+.s9d4images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
