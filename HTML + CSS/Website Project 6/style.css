@@ -53,7 +53,50 @@
 }
 
 
+@media screen and (max-width:900px) {
+    .main {
+        display: flex;
+        padding: 10px;
+        background-image: url(1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
 
+    #menu {
+        display: none;
+    }
+
+    .main img {
+        transform: scale(80%);
+    }
+
+    #menu a {
+        margin: 20px 10px;
+        text-align: center;
+        display: flex;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    #checkbox-menu {
+        display: block;
+        color: black;
+        font-size: 20px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .main {
+        padding: 10px 5px 10px 0px;
+    }
+
+    .main img {
+        transform: scale(70%);
+    }
+}
 
 
 /* SECTION 1------------------------------------------------- */
@@ -99,7 +142,27 @@
     background-color: rgb(207, 150, 218);
 }
 
+@media screen and (max-width:900px) {
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
 
+    .s1 {
+        height: 150px;
+        width: 100%;
+    }
+
+    .s1 h1 {
+        font-size: 24px;
+    }
+
+    .s1 i {
+        font-size: 60px;
+        color: white;
+    }
+}
 
 /* SECTION 2-------------------------------------------- */
 .grid {
@@ -148,6 +211,32 @@
     background-color: rgb(224, 96, 96);
 }
 
+@media screen and (max-width:900px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items h1 {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+
+    .items p {
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 14px;
+    }
+
+    #i2,
+    #i3,
+    #i4 {
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+}
 
 /* SECTION 3---------------------------------------------- */
 .section3 {
@@ -186,6 +275,35 @@
     background-color:  rgb(54, 175, 196);
 }
 
+@media screen and (max-width:900px) {
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .s3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .s3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .grid {
+        font-size: 20px;
+    }
+
+
+    #s3d2 {
+        padding: 10px;
+    }
+}
 
 /* SECTION 4---------------------------------------------- */
 .section4 {
@@ -216,4 +334,45 @@
 .section5 i:hover {
     color: rgb(255, 255, 255);
     cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+
+    .section5 i {
+        color: rgb(148, 79, 79);
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .section5 i {
+        color: rgb(148, 79, 79);
+        margin: 0px 20px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .section5 {
+        height: 100px;
+    }
+
+    .section5 i {
+        color: rgb(148, 79, 79);
+        margin: 0px 10px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:200px) {
+    .section5 {
+        height: 30px;
+    }
+
+    .section5 i {
+        color: rgb(148, 79, 79);
+        margin: 0px 5px;
+        font-size: 15px;
+    }
 }
