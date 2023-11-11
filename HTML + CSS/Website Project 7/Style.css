@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#line {
+    width: 100%;
+    background-color: rgb(237, 233, 233);
+    border-radius: 5px;
+    border: 0px;
+    height: 2px;
+}
+
+#btn1 {
+    width: 100%;
+    background-color: rgb(237, 236, 236);
+    color: black;
+    font-size: 16px;
+    padding: 10px 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: rgb(119, 116, 116);
+
+}
+
+/* NAVBAR--------------------------------------- */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    z-index: 10;
+}
+
+#logo1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+#logo2 {
+    font-weight: 100;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.navbar a {
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background-color: rgb(224, 223, 223);
+}
+
+.menu a {
+    font-size: 17px;
+    color: rgb(47, 46, 46);
+    margin: 0px 10px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px) {
+    .menu {
+        display: none;
+    }
+}
+
+/* SECTION 1-------------------------------- */
+.section1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section1 #logo1 {
+    font-size: 30px;
+    color: white;
+    padding: 12px;
+    background-color: rgba(8, 7, 7, 0.9);
+}
+
+.section1 #logo2 {
+    font-size: 30px;
+    color: rgb(248, 247, 247);
+    padding: 15px;
+    margin-left: -5px;
+    color: black;
+}
+
+/* SECTION 2--------------------------------- */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    padding: 50px 20px 25px 20px;
+}
+
+.section2 hr {
+    margin: 15px 0px;
+}
+
+.section2 h3 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.s2grid {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2item {
+    height: 200px;
+}
+
+.s2item p {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 6px 14px;
+    width: fit-content;
+    position: absolute;
+}
+
+.s2item img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .section2 {
+        height: fit-content;
+    }
+
+    .section2 hr {
+        margin: 30px 0px;
+    }
+
+    .s2grid {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        height: fit-content;
+    }
+
+    .s2item {
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .s2grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s2item {
+        width: 95%;
+        height: 350px;
+    }
+
+    .s2item p {
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        padding: 6px 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .s2grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .section2 {
+        height: fit-content;
+    }
+
+    .s2item img {
+        height: 90%;
+    }
+}
+
+/* SECTION 3------------------------------------ */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 20px 15px 20px;
+    height: 700px;
+}
+
+.section3 hr {
+    margin: 15px 0px;
+}
+
+.section3 h3 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#s3p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.s3grid {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 18px;
+    grid-template-columns: 24% 24% 24% 24%;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.s3items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.s3items img {
+    width: 100%;
+    height: 200px;
+}
+
+.s3items h4 {
+    font-weight: 100;
+    color: grey;
+}
+
+.s3items p {
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+@media screen and (max-width:1000px) {
+    .section3 {
+        height: fit-content;
+    }
+
+    .s3grid {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+
+    .s3items {
+        height: 520px;
+    }
+
+    .s3items img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .s3grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .s3items img {
+        height: 300px;
+    }
+
+    .s3items {
+        padding: 10px 10px;
+        height: 520px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .s3items img{
+        height: 230px;
+    }
+}
+
+/* SECTION 4------------------------------------ */
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    padding: 10px 30px;
+}
+
+.section4 h3 {
+    font-size: 27px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.section4 p {
+    font-size: 18px;
+}
+
+.section4 input {
+    font-size: 17px;
+    padding: 8px 0px 8px 10px;
+    border: 1px rgb(166, 166, 166) solid;
+}
+
+#btn2 {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    width: fit-content;
+}
+
+@media screen and (max-width:1000px) {
+    .section4 {
+        height: 420px;
+        margin-top: 10px;
+    }
+}
+
+/* SECTION 5 ---------------------------------- */
+.section5 {
+    height: 100vh;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.section5 img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+
+    .section5 {
+        height: 80vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .section5 {
+        height: 70vh;
+        width: 100%;
+    }
+}
