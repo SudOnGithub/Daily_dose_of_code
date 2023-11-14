@@ -1,0 +1,59 @@
+.set{
+    position: absolute;
+    left: 190px;
+    background-color: beige;
+}
+
+#set1{
+    position: relative;
+    right: -320px;
+    background-color: beige;
+}
+
+#set2{
+    position: relative;
+    right: -320px;
+    background-color: beige;
+}
+
+#set3{
+    position: relative;
+    right: -124px;
+}
+
+#set4{
+    position: relative;
+    right: -130px;
+}
+
+#set5{
+    position: relative;
+    right: -115px;
+}
+
+#set6{
+    position: relative;
+    right: -130px;
+}
+
+#set7{
+    position: relative;
+    right: -138px;}
+
+#set10{
+    display: inline;
+    position: relative;
+    right: -120px;
+}    
+
+#set11{
+    display: inline;
+    position: relative;
+    right: -135px;
+}
+
+#set12{
+    display: inline;
+    position: relative;
+    right: -140px;
+}
