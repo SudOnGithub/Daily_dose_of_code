@@ -1,0 +1,63 @@
+html{
+    background-color: rgba(22, 53, 104, 0.849);
+}
+
+.Panels{
+    display: flex;
+}
+
+.h-panel{
+    display: flex;
+}
+
+.v-panel{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.box1{
+    width: 80px;
+    height: 80px;
+    color: wheat;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size:2rem;
+}
+
+.box2{
+    width: 120px;
+    height: 80px;
+    color: wheat;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size:2rem;
+}
+
+.box1:hover{
+    color: white;
+    background-color: black;
+}
+
+.box2:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.home {
+    background-color: rgb(84, 232, 84);
+    color:white;
+    pointer-events: none;
+
+/* Something new */
+
+}
+
+
