@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple calc</title>
+  </head>
+  <body>
+    <input type="number" id="one" />
+    <select name="" id="sel">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="/">/</option>
+      <option value="*">x</option>
+    </select>
+    <input type="number" id="two" />
+    <button onclick="calc()">Calculate</button>
+    <br /><br />
+    Result : <input type="text" name="" id="result" />
+    <script>
+      function calc() {
+        let number1 = document.getElementById("one").value;
+        let number2 = document.getElementById("two").value;
+        let input = document.getElementById("sel").value;
+        let result = document.getElementById("result");
+        let res;
+        if (input === "+") {
+          res = parseInt(number1) + parseInt(number2);
+          console.log(res);
+        } else if (input === "-") {
+          res = parseInt(number1) - parseInt(number2);
+          console.log(res);
+        } else if (input === "/") {
+          res = parseInt(number1) / parseInt(number2);
+          console.log(res);
+        } else if (input === "*") {
+          res = parseInt(number1) * parseInt(number2);
+          console.log(res);
+        }
+        result.value = res;
+      }
+    </script>
+  </body>
+</html>
