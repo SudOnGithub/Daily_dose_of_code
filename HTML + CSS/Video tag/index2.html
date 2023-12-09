@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video tag</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      video {
+        min-width: 100vw;
+        position: relative;
+      }
+
+      .para-section {
+        padding: 5%;
+        color: white;
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        backdrop-filter: blur(30px);
+      }
+
+      p,h1{
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- In some browsers autoplay does not work if muted attribute is not given -->
+
+    <div style="height: 100vh; overflow: hidden;">
+      
+      <video
+        src="./hero_section_animation.mp4"
+        autoplay="autoplay"
+        muted
+        type="video/mp4"
+      ></video>
+      <div class="para-section">
+        <div>
+          <h1>Learning Video tag and back-ground blur</h1>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cum
+            earum, aliquam repellendus, doloribus numquam modi voluptatum amet
+            labore necessitatibus et quasi reprehenderit. Rem totam asperiores
+            est ipsum perspiciatis vero.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
