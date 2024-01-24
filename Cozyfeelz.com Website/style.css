@@ -78,31 +78,3 @@ header {
   color: #121212e6;
   margin-left: 20px;
 }
-
-@media screen and (max-width: 600px) {
-  .intro-area {
-    height: 90px;
-  }
-
-  #logo {
-    margin-right: 0%;
-  }
-
-  .intro-area #menu-icon {
-    display: block;
-  }
-
-  #menu-icon:active {
-    transform: rotate(360deg);
-  }
-
-  .hamburger-menu {
-    display: none;
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    height: auto;
-    background-color: white;
-    padding: 0px 50px 20px 50px;
-  }
-}
