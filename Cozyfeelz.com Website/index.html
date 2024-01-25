@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cozyfeelz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <!-- Section 1 -->
+
+      <header>WINTER SALE | FREE SHIPPING</header>
+
+      <!-- Section 2 -->
+
+      <div class="intro-area">
+        <div class="hamburger-menu">
+          <a href="#"> <p>Home</p></a>
+          <a href="#shopnow"> <p>Shop Now</p></a>
+          <a href="#footer"> <p>Contact</p></a>
+        </div>
+        <img
+          onclick="menuBar()"
+          id="menu-icon"
+          src="./icons/hamburger_menu.svg"
+          alt="hamburger-menu"
+        />
+
+        <div id="logo"><img src="./images/logo.jpg" alt="logo" /></div>
+        <div><img src="./icons/icons-cart.png" alt="icons-cart" /></div>
+      </div><br>
+
+      <!-- Section 3 -->
+
+      <div id="shopnow" class="hero-section">
+        <div class="hero-section-a">
+          <img
+            id="hero-image1"
+            src="./images/hero_image.jpg"
+            alt="hero-image1"
+          />
+        </div>
+
+        <div class="hero-section-main-images">
+          <div class="slide">
+            <img
+              src="./images/hero_image.jpg"
+              alt="hero_image_1"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/hero_image_2.jpg"
+              alt="hero_image_2"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/hero_image_3.jpg"
+              alt="hero_image_3"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/hero_image_4.jpg"
+              alt="hero_image_4"
+            />
+          </div>
+        </div>
+        <br />
+        <div id="image-number-div">
+          <button class="slider-button" onclick="goPrev()">❮</button>
+          <span id="image-number"></span>
+          <button class="slider-button" onclick="goNext()">❯</button>
+        </div>
+        <br />
+        <div class="hero-section-b">
+          <div id="units-left-section">
+            <p id="units-left">Only 10 Units Left</p>
+          </div>
+          <div>
+            <p class="very-big-black-text">Hello Kitty Vanity Mirror</p>
+          </div>
+          <div>
+            <p>
+              <span class="cost-price-a"> $49.98 </span>
+              <span class="cost-price-b"><s> $160.00 </s> </span>
+              <span id="save-money">
+                <img
+                  height="10px"
+                  width="10px"
+                  src="./icons/price-tag.svg"
+                  alt="price-tag"
+                />
+                SAVE 68%</span
+              >
+            </p>
+          </div>
+          <div class="thin-text">
+            <p>🌈 20 colors</p>
+            <p>📲 App-Powered Excitement</p>
+            <p>🖐️ Touchscreen Elegance</p>
+          </div>
+          <button class="black-button">BUY NOW</button>
+          <div class="payment-icons">
+            <img src="./icons/amex.svg" alt="amex" />
+            <img src="./icons/applepay.svg" alt="apay" />
+            <img src="./icons/clubdiners.svg" alt="dpay" />
+            <img src="./icons/discover.svg" alt="discover" />
+            <img src="./icons/meta.svg" alt="meta" />
+            <img src="./icons/gpay.svg" alt="gpay" />
+            <img src="./icons/mastercard.svg" alt="mastercard" />
+            <img src="./icons/shoppay.svg" alt="shoppay" />
+            <img src="./icons/visa.svg" alt="visa" />
+          </div>
+          <div class="expected-delivery-time">
+            <br />
+            <img
+              height="22px"
+              width="36px"
+              src="./icons/van_icon.svg"
+              alt="van-icon"
+            />
+
+            <span id="delivery-time">
+              Get it between <b>Tuesday, January 2nd </b> and
+              <b> Wednesday, January 10th.</b></span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hero-section-pending">
+        <img src="./images/hero_image.jpg" alt="hero_image_1" />
+        <img src="./images/hero_image_2.jpg" alt="hero_image_2" />
+        <img src="./images/hero_image_3.jpg" alt="hero_image_3" />
+        <img src="./images/hero_image_4.jpg" alt="hero_image_4" />
+      </div>
+     <br>
+      <!-- Section 4 -->
+
+         
+
+    <script src="./app.js"></script>
+  </body>
+</html>
