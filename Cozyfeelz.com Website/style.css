@@ -286,3 +286,121 @@ header {
 }
 
 /* Description Section 4 */
+
+.description-section {
+  background-color: rgb(234, 234, 234);
+  height: 275px;
+}
+
+.description-subsection {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.description-section p {
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .description-section {
+    height: auto;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    padding: 5%;
+  }
+
+  .description-subsection {
+    width: 85%;
+  }
+
+  .description-section p {
+    padding: 8px;
+  }
+}
+
+/* Section 5 */
+
+.buy-item-cart {
+  display: none;
+}
+
+.buy-item-cart p span {
+  font-size: 12px;
+}
+
+#add-to-cart-button {
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+}
+
+.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .buy-item-cart {
+    display: block;
+    padding: 10px 16px;
+    background: white;
+    box-shadow: 2px 0px 5px grey;
+    border: 2px solid white;
+    line-height: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+  }
+}
+
+/* Color Changing Led Section 6*/
+
+.color-changing-led-section img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 100%;
+}
+
+.color-changing-led-section {
+  border-radius: 20px;
+  background-color: rgb(234, 234, 234);
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.color-changing-led-section-2 {
+  font-size: large;
+  word-spacing: 8px;
+  line-height: 1.6;
+  width: 40%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1100px) {
+  .color-changing-led-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .color-changing-led-section img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .color-changing-led-section-2 {
+    font-size: 14px;
+    width: 80%;
+    padding-bottom: 5%;
+  }
+  .color-changing-led-section-2 p {
+    text-align: left;
+  }
+}
