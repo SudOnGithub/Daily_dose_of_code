@@ -532,3 +532,107 @@ header {
     min-width: 100%;
   }
 }
+
+/* Section 9 */
+
+.checkbox-icon {
+  height: 35px;
+}
+
+.chevron-bottom {
+  height: 20px;
+}
+
+.question-text,
+.question-text2 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    rgb(238, 238, 238),
+    rgb(204, 204, 204),
+    rgb(238, 238, 238)
+  );
+}
+
+.question-text span,
+.question-text2 span {
+  font-size: 22px;
+}
+
+.answer-text,
+.answer-text2 {
+  display: none;
+  margin: 10px;
+  word-spacing: 8px;
+}
+
+ol {
+  margin-left: 10%;
+}
+
+/* Section 10 */
+
+.footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.916);
+  color: white;
+}
+
+.links-address {
+  padding: 2%;
+  display: flex;
+  justify-content: start;
+  gap: 20%;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.address p {
+  padding-bottom: 2%;
+}
+
+.links-address ul {
+  list-style-type: none;
+}
+
+.links-address li {
+  margin-top: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.big-black-text,
+.big-white-text {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .big-black-text,
+  .big-white-text {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: "Fjalla One", sans-serif;
+  }
+
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .links-address {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
