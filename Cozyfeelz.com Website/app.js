@@ -37,3 +37,67 @@ function myFunction() {
 window.onscroll = function () {
   myFunction();
 };
+
+// Top Slides
+
+const slides = document.querySelectorAll(".slide");
+let counter = 0;
+const imageNumber = document.getElementById("image-number");
+imageNumber.innerHTML = "1/4";
+
+slides.forEach((slide, index) => {
+  slide.style.left = `${index * 100}%`;
+});
+
+function goNext() {
+  if (counter < 3) {
+    counter++;
+    slideImage();
+  }
+}
+
+const goPrev = () => {
+  if (counter > 0) {
+    counter--;
+    slideImage();
+  }
+};
+
+const slideImage = () => {
+  slides.forEach((slide) => {
+    slide.style.transform = `translateX(-${counter * 100}%)`;
+    imageNumber.innerHTML = counter + 1 + "/4";
+  });
+};
+
+// Bottom slides
+
+const slidesTwo = document.querySelectorAll(".second-slides");
+let counterTwo = 0;
+const reviewNumber = document.getElementById("review-number");
+reviewNumber.innerHTML = "1/3";
+
+slidesTwo.forEach((slide, index) => {
+  slide.style.left = `${index * 100}%`;
+});
+
+function goNextTwo() {
+  if (counterTwo < 2) {
+    counterTwo++;
+    slideReview();
+  }
+}
+
+const goPrevTwo = () => {
+  if (counterTwo > 0) {
+    counterTwo--;
+    slideReview();
+  }
+};
+
+const slideReview = () => {
+  slidesTwo.forEach((slide) => {
+    slide.style.transform = `translateX(-${counterTwo * 100}%)`;
+    reviewNumber.innerHTML = counterTwo + 1 + "/3";
+  });
+};
