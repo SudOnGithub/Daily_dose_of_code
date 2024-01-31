@@ -101,3 +101,41 @@ const slideReview = () => {
     reviewNumber.innerHTML = counterTwo + 1 + "/3";
   });
 };
+
+// Making top slide draggable
+
+const draggableElement = document.querySelector(".hero-section-main-images");
+
+draggableElement.addEventListener("dragstart", function (e) {
+  e.dataTransfer.setData("text/plain", "Drag me!");
+});
+
+draggableElement.addEventListener("dragend", function (e) {
+  // Handle drag end if needed
+});
+
+// Questions area
+
+function questionPop() {
+  const answerView = document.querySelector(".answer-text");
+  const questionText = document.querySelector(".question-text");
+  if (answerView.style.display === "none") {
+    answerView.style.display = "block";
+    questionText.style.textDecoration = "underline";
+  } else {
+    answerView.style.display = "none";
+    questionText.style.textDecoration = "none";
+  }
+}
+
+function questionTwoPop() {
+  const answerTwoView = document.querySelector(".answer-text2");
+  const questionTwoText = document.querySelector(".question-text2");
+  if (answerTwoView.style.display === "none") {
+    answerTwoView.style.display = "block";
+    questionTwoText.style.textDecoration = "underline";
+  } else {
+    answerTwoView.style.display = "none";
+    questionTwoText.style.textDecoration = "none";
+  }
+}
