@@ -185,6 +185,10 @@ img {
 /* FOR LARGE DEVICES */
 
 @media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* FOR MEDIUM DEVICES */
@@ -196,4 +200,8 @@ img {
 
 /* FOR SMALL DEVICES */
 @media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
