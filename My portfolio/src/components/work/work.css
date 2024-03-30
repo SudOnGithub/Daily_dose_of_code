@@ -34,9 +34,16 @@
 }
 
 .work__img {
-  width: 295px;
+  width: 520px;
+  height: 250px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
+  object-fit: cover;
+}
+
+.work__img:hover{
+  scale: 1.05;
+  transition: ease-in-out 0.5s;
 }
 
 .work__title {

@@ -1,14 +1,22 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Home from "./components/home/Home.jsx"
+import Header from "./components/header/Header.jsx";
+import Home from "./components/home/Home.jsx";
+import About from "./components/about/About.jsx";
+import Skills from "./components/skills/Skills.jsx";
+import Work from "./components/work/Work.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <main className="main">
-      <Home/>
+        <Home />
+        <About />
+        <Skills />
+        <Work/>
+        <Contact/>
       </main>
     </>
   );
