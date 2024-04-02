@@ -31,7 +31,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">sudhird61@gmail.com</span>
 
               <a href="mailto:sudhird61@gmail.com" className="contact__button">
                 Write me
@@ -45,19 +45,19 @@ const Contact = () => {
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+91-8950262821</span>
 
-              <a href=" Whtsapp api text here" className="contact__button">
+              <a href="https://wa.me/+918950262821 " className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-instagram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.gn233</span>
+              <h3 className="contact__card-title">Instagram</h3>
+              <span className="contact__card-data">sid_rihdus</span>
 
-              <a href=" messenger here" className="contact__button">
+              <a href="https://www.instagram.com/sid_rihdus/" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
