@@ -11,7 +11,6 @@ const Header = () => {
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           <img src={logoImg} alt="Logo here" />
-          {/* .devSudhir */}
                   </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

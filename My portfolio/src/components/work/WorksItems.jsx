@@ -10,7 +10,7 @@ const WorksItems = ({ item }) => {
         <a href={item.link} target="no_blank" className="work__button__dark">
           Live Preview
         </a>
-        <a href={item.link} target="no_blank" className="work__button">
+        <a href={item.source} target="no_blank" className="work__button">
           Source Code <i className="bx bx-right-arrow-alt work__button"></i>
         </a>
       </div>

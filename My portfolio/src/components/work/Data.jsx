@@ -26,6 +26,7 @@ export const projectsData = [
     image: AdAgency,
     title: "Ad-Agency UI Template",
     link:"https://ad-agency.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Ad_Agency_Landing_Page",
     category: "UI Templates",
   },
   {
@@ -33,6 +34,7 @@ export const projectsData = [
     image: CryptoTemp,
     title: "Crypto UI Template",
     link:"https://crypto.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Crypto_Website_Landing_page",
     category: "UI Templates",
   },
   {
@@ -40,6 +42,7 @@ export const projectsData = [
     image: MusicFest,
     title: "Music fest Multipage UI Template",
     link:"https://music-fest.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Music_festival_Multipage_Website",
     category: "UI Templates",
   },
   {
@@ -47,7 +50,7 @@ export const projectsData = [
     image: TravelTemp,
     title: "Travel Agency UI Template",
     link:"https://travel.reefcode.net/",
-    
+    source:"https://github.com/SudOnGithub/Travel_Website_Landing_page",
     category: "UI Templates",
   },
   {
@@ -55,6 +58,7 @@ export const projectsData = [
     image: BlogTemp,
     title: "Blog Responsive UI Template",
     link:"https://blog.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Blog_Website",
     category: "UI Templates",
   },
   {
@@ -62,6 +66,7 @@ export const projectsData = [
     image: ArchTemp,
     title: "Architect Resposive UI Template",
     link:"https://arch.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Architect_Website",
     category: "UI Templates",
   },
 
@@ -70,6 +75,7 @@ export const projectsData = [
     image: Calc,
     title: "Basic Calculator",
     link:"https://calc.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Basic_Calc",
     category: "Mini-JS Projects",
   },
   {
@@ -77,6 +83,7 @@ export const projectsData = [
     image: TodoList,
     title: "To-do List",
     link:"https://todo.reefcode.net/",
+    source:"",
     category: "Mini-JS Projects",
   },
   {
@@ -84,6 +91,7 @@ export const projectsData = [
     image: QuizApp,
     title: "Quiz App",
     link:"https://quiz.reefcode.net/",
+    source:"",
     category: "Mini-JS Projects",
   },
   {
@@ -91,6 +99,7 @@ export const projectsData = [
     image: RandomColorGen,
     title: "Random Color Generator",
     link:"https://colorgen.reefcode.net/",
+    source:"",
     category: "Mini-JS Projects",
   },
   {
@@ -98,6 +107,7 @@ export const projectsData = [
     image: RandomParaGen,
     title: "Random Paragraph Generator",
     link:"https://paragen.reefcode.net/",
+    source:"",
     category: "Mini-JS Projects",
   },
   {
@@ -105,6 +115,7 @@ export const projectsData = [
     image: RandomPassGen,
     title: "Random Password Generator",
     link:"https://passgen.reefcode.net/",
+    source:"",
     category: "Mini-JS Projects",
   },
 
@@ -113,6 +124,7 @@ export const projectsData = [
     image: ImageSlider,
     title: "Simple Image Slider",
     link:"https://slider.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Custom_Image_Slider",
     category: "Mini-JS Projects",
   },
   {
@@ -120,6 +132,7 @@ export const projectsData = [
     image: CountdownTimer,
     title: "Countdown Timer",
     link:"https://timer.reefcode.net/",
+    source:"https://github.com/SudOnGithub/Countdown_Timer",
     category: "Mini-JS Projects",
   },
   {
@@ -127,6 +140,7 @@ export const projectsData = [
     image: NotesApp,
     title: "Notes App",
     link:"https://notes.reefcode.net/",
+    source:"",
     category: "Mini-JS Projects",
   },
   {
@@ -134,6 +148,7 @@ export const projectsData = [
     image: WeatherProject,
     title: "Weather App",
     link:"https://weather.reefcode.net/",
+    source:"",
     category: "API Projects",
   },
   {
@@ -141,6 +156,7 @@ export const projectsData = [
     image: GithubProject,
     title: "Github Profile Viewer",
     link:"https://gitprof.reefcode.net/",
+    source:"https://github.com/SudOnGithub/GitHub_Profile_Viewer",
     category: "API Projects",
   },
   {

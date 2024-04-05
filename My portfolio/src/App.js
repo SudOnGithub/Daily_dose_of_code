@@ -6,6 +6,7 @@ import About from "./components/about/About.jsx";
 import Skills from "./components/skills/Skills.jsx";
 import Work from "./components/work/Work.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Work/>
         <Contact/>
       </main>
+      <Footer/>
     </>
   );
 }
