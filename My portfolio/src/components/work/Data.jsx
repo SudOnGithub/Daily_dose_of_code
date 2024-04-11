@@ -107,7 +107,7 @@ export const projectsData = [
     image: RandomParaGen,
     title: "Random Paragraph Generator",
     link:"https://paragen.reefcode.net/",
-    source:"",
+    source:"https://github.com/SudOnGithub/Random_Paragraph_Generator",
     category: "Mini-JS Projects",
   },
   {
@@ -115,7 +115,7 @@ export const projectsData = [
     image: RandomPassGen,
     title: "Random Password Generator",
     link:"https://passgen.reefcode.net/",
-    source:"",
+    source:"https://github.com/SudOnGithub/Random_Password_Generator",
     category: "Mini-JS Projects",
   },
 
@@ -140,7 +140,7 @@ export const projectsData = [
     image: NotesApp,
     title: "Notes App",
     link:"https://notes.reefcode.net/",
-    source:"",
+    source:"https://github.com/SudOnGithub/Notes_App",
     category: "Mini-JS Projects",
   },
   {
@@ -148,7 +148,7 @@ export const projectsData = [
     image: WeatherProject,
     title: "Weather App",
     link:"https://weather.reefcode.net/",
-    source:"",
+    source:"https://github.com/SudOnGithub/Weather-App",
     category: "API Projects",
   },
   {

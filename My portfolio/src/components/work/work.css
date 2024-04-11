@@ -63,14 +63,12 @@
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
-
   align-items: center;
   column-gap: 0.25rem;
 }
 
 .work__button__dark {
   font-size: var(--small-font-size);
-
   background-color: var(--title-color);
   color: var(--container-color);
   align-items: center;

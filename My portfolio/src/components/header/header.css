@@ -21,7 +21,7 @@
   font-weight: var(--font-medium);
 }
 
-.nav__logo img{
+.nav__logo img {
   height: 20px;
 }
 
@@ -48,9 +48,22 @@
 
 /* ACTIVE LINK */
 
-.active-link,
-.nav__link:hover {
+.active-link {
   color: var(--title-color-dark);
+}
+
+.nav__link:hover {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+
+/* Change BG Header */
+
+.scroll-header {
+  /* box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* ----------BREAKPOINTS ---------*/
