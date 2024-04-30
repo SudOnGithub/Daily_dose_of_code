@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body onscroll="scroll_count()">
+    <h1 id="normal_count"></h1>
+    <h1 id="throttle_count"></h1>
+
+    <script>
+      let n_count = 0;
+      let t_count = 0;
+      let isScrolling = true;
+
+      const norCount = document.querySelector("#normal_count");
+      const throCount = document.querySelector("#throttle_count");
+      const normal_count = () => {
+        n_count++;
+        norCount.innerHTML = `Normal Count: ${n_count}`;
+      };
+      const throttle_count = () => {
+        if (isScrolling === true) {
+          t_count++;
+          throCount.innerHTML = `Throttle Count: ${t_count}`;
+          isScrolling = false;
+          setTimeout(() => {
+            isScrolling = true;
+          }, 1000);
+        }
+      };
+      const scroll_count = () => {
+        normal_count();
+        throttle_count();
+      };
+    </script>
+  </body>
+</html>
