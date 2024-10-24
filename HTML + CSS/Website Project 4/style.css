@@ -533,40 +533,219 @@ img {
 
 /* Section 20 */
 
-.section20{
+.section20 {
   text-align: center;
   width: 75%;
   margin: auto;
 }
 
-.section20>div{
+.section20 > div {
   display: flex;
   justify-content: space-evenly;
 }
 
-.section20 img{
+.section20 img {
   height: 50vh;
 }
 
-.section20-a{
+.section20-a {
   text-align: left;
 }
 
-.section20-a p{
+.section20-a p {
   margin-left: 8%;
 }
 
-.sec20-icon{
+.sec20-icon {
   margin: 1%;
   border-radius: 4px;
-  height: 30px;
-  width: 30px;
   background-color: rgba(128, 128, 128, 0.212);
-  padding-left: 6%;
-  padding-top: 6%;
+  padding: 3%;
 }
 
-.section21-img{
+/* Section 21 */
+
+.section21-img {
   height: 50vh;
   margin-top: 4%;
+}
+
+/* Section 22 */
+
+.section22 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Section 23 */
+
+.section23 {
+  background-color: rgba(128, 128, 128, 0.212);
+}
+
+.sub-section23 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-sub-section23 {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.section23-banner {
+  height: 60vh;
+  width: 50vh;
+  background-color: white;
+}
+
+.back-img {
+  height: 25vh;
+  background: linear-gradient(
+      to right,
+      rgba(255, 68, 0, 0.637),
+      rgba(255, 68, 0, 0.63)
+    ),
+    url(./Ph1.jpg);
+}
+
+.section23-banner div i {
+  font-size: 2.5rem;
+}
+
+.round-icon {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  width: 30%;
+  margin: auto;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -10%;
+}
+
+.section23 span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: orangered;
+}
+
+/* Section 24 */
+
+.section24 {
+  background-color: rgba(32, 18, 59, 0.877);
+}
+
+.section24 h1,
+.section24 h4 {
+  color: white;
+}
+.sub-section24 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-sections-24 {
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  margin-top: 3%;
+  text-align: left;
+}
+
+.price-sec24 {
+  height: 15vh;
+  width: 15vh;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 700;
+}
+
+.section24 sub {
+  font-size: 2rem;
+}
+
+.section24-big-txt {
+  font-size: 1.2rem;
+}
+
+.section24 button {
+  scale: 1.2;
+}
+
+.btn-color {
+  color: white;
+  border: 1px solid white;
+}
+
+/* Section 25 */
+
+.section25 {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+
+.section25 img {
+  object-fit: contain;
+}
+
+.section25-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* Section 26 */
+
+.section26 {
+  padding: 2%;
+  background-color: rgba(128, 128, 128, 0.212);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.sub-section26-a {
+  margin-left: 40%;
+}
+
+.sub-section26-b {
+  margin-left: 10%;
+}
+
+.sub-section26-b i {
+  margin: 1%;
+  background-color: rgba(128, 128, 128, 0.479);
+  padding: 1%;
+  border-radius: 4px;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.856);
+  font-size: 1.2rem;
+  padding: 2%;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  color: grey;
 }
